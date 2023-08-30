@@ -23,7 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tkg8#%h$l#mv$6v0a^77$kjpnex9x3l55630yz)d#wu$ebol*='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+STATIC_ROOT= os.path.join(PROJECT_DIR,'static/')
 
 ALLOWED_HOSTS = ["*"]
 
